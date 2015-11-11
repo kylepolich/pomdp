@@ -1,0 +1,42 @@
+{
+	'S': {'TigerLeft', 'TigerRight'},
+	'T': [
+             ['TigerLeft', 'Listen' 'TigerLeft', 1.0],
+             ['TigerLeft', 'Listen' 'TigerRight', 0.0],
+             ['TigerRight', 'Listen' 'TigerLeft', 0.0],
+             ['TigerRight', 'Listen' 'TigerRight', 1.0],
+             ['TigerLeft', 'OpenLeft' 'TigerLeft', 0.5],
+             ['TigerLeft', 'OpenLeft' 'TigerRight', 0.5],
+             ['TigerRight', 'OpenLeft' 'TigerLeft', 0.5],
+             ['TigerRight', 'OpenLeft' 'TigerRight', 0.5],
+             ['TigerLeft', 'OpenRight' 'TigerLeft', 0.5],
+             ['TigerLeft', 'OpenRight' 'TigerRight', 0.5],
+             ['TigerRight', 'OpenRight' 'TigerLeft', 0.5],
+             ['TigerRight', 'OpenRight' 'TigerRight', 0.5]
+         ],
+	'A': {'OpenLeft', 'Listen', 'OpenRight'},
+	'O': [
+             ['TigerLeft', 'Listen' 'GrowlLeft', 0.85],
+             ['TigerLeft', 'Listen' 'GrowlRight', 0.15],
+             ['TigerRight', 'Listen' 'GrowlLeft', 0.15],
+             ['TigerRight', 'Listen' 'GrowlRight', 0.85],
+             ['TigerLeft', 'OpenLeft' 'GrowlLeft', 0.5],
+             ['TigerLeft', 'OpenLeft' 'GrowlRight', 0.5],
+             ['TigerRight', 'OpenLeft' 'GrowlLeft', 0.5],
+             ['TigerRight', 'OpenLeft' 'GrowlRight', 0.5],
+             ['TigerLeft', 'OpenRight' 'GrowlLeft', 0.5],
+             ['TigerLeft', 'OpenRight' 'GrowlRight', 0.5],
+             ['TigerRight', 'OpenRight' 'GrowlLeft', 0.5],
+             ['TigerRight', 'OpenRight' 'GrowlRight', 0.5]
+		 ],
+	'Om': {'GrowlLeft', 'GrowlRight'},
+	'R': [
+			 ['TigerLeft', 'OpenLeft', -100],
+			 ['TigerLeft', 'Listen', -1],
+			 ['TigerLeft', 'OpenRight', 10],
+			 ['TigerRight', 'OpenLeft', 10],
+			 ['TigerRight', 'Listen', -1],
+			 ['TigerRight', 'OpenRight', -100]
+		 ],
+	'opt': {'criteria': 'finite-horizon', 'h': 4}
+}
